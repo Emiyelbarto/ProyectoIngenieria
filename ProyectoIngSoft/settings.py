@@ -79,6 +79,9 @@ WSGI_APPLICATION = 'ProyectoIngSoft.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ingenieria',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'OPTIONS': {
             'read_default_file': os.path.join(BASE_DIR, 'mysql/my.cnf'),
         },
